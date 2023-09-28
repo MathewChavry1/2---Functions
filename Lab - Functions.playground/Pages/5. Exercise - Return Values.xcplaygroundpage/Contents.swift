@@ -8,8 +8,10 @@ func greeting(_ name: String) -> String{
 }
 greeting("Dan")
 //:  Write a function that takes two `Int` arguments, and returns an `Int`. The function should multiply the two arguments, add 2, then return the result. Use the function and print the result.
-func multiply(
-
+func multiply(_ firstNumber: Int,_ secondNumber: Int) -> Int{
+    return firstNumber * secondNumber + 2
+}
+multiply(3, 3)
 /*:
 [Previous](@previous)  |  page 5 of 6  |  [Next: App Exercise - Separating Functions](@next)
  */
